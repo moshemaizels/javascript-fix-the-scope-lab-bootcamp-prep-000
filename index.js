@@ -20,10 +20,10 @@ function add2(n) {
   const two = 2
 }
 
-funkyFunction function() {
-
+var funkyFunction = function() {
+  return function() {
     return "FUNKY!"
-  
+  }
 }
 
 // We want 'funkyFunction' on the line below to return a function that returns "FUNKY!" -- how can we accomplish that?
